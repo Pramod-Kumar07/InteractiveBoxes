@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProveWay</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="outerWrapper">
+      <div id="container">
+        <div class="title">
+          <div class="hzLine"></div>
+          <span>YAY! It’s BOGO</span>
+          <div class="hzLine"></div>
+        </div>
+        <div class="boxWrapper">
+          <div class="box active" onclick="selectCard(this)">
+            <div class="visibleContent">
+              <div class="unit">
+                <input type="radio" class="radio" id="radio" />
+                <div class="unitWrapper">
+                  <div class="unit">
+                    <span class="unitCount">1 Unit</span>
+                    <span class="percentOff">10% Off</span>
+                  </div>
+                  <span class="stdPrice">Standard Price</span>
+                </div>
+              </div>
+              <div class="priceWrapper">
+                <span class="newPrice">$10.00 USD</span>
+                <span class="discountPrice">$24.00 USD </span>
+              </div>
+            </div>
+            <div class="hiddenContent">
+              <table>
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Size</th>
+                    <th>Colour</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>#1</td>
+                    <td>
+                      <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                      </select>
+                    </td>
+                    <td>
+                      <select>
+                        <option>Black</option>
+                        <option>White</option>
+                        <option>Blue</option>
+                      </select>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>#2</td>
+                    <td>
+                      <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                      </select>
+                    </td>
+                    <td>
+                      <select>
+                        <option>Black</option>
+                        <option>White</option>
+                        <option>Blue</option>
+                      </select>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="box active" onclick="selectCard(this)" id="box2">
+            <div class="popularTag">
+              <div class="triangleLeft"></div>
+              <div class="mostPopular">MOST POPULAR</div>
+              <div class="triangleRight"></div>
+            </div>
+            <div class="visibleContent">
+              <div class="unit">
+                <input type="radio" class="radio" id="radio" />
+                <div class="unitWrapper">
+                  <div class="unit">
+                    <span class="unitCount">2 Unit</span>
+                    <span class="percentOff">20% Off</span>
+                  </div>
+                </div>
+              </div>
+              <div class="priceWrapper">
+                <span class="newPrice">$18.00 USD</span>
+                <span class="discountPrice">$24.00 USD </span>
+              </div>
+            </div>
+            <div class="hiddenContent">
+              <table>
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Size</th>
+                    <th>Colour</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>#1</td>
+                    <td>
+                      <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                      </select>
+                    </td>
+                    <td>
+                      <select>
+                        <option>Black</option>
+                        <option>White</option>
+                        <option>Blue</option>
+                      </select>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>#2</td>
+                    <td>
+                      <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                      </select>
+                    </td>
+                    <td>
+                      <select>
+                        <option>Black</option>
+                        <option>White</option>
+                        <option>Blue</option>
+                      </select>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="box active" onclick="selectCard(this)">
+            <div class="visibleContent">
+              <div class="unit">
+                <input type="radio" class="radio" id="radio" />
+                <div class="unitWrapper">
+                  <div class="unit">
+                    <span class="unitCount">3 Unit</span>
+                    <span class="percentOff">30% Off</span>
+                  </div>
+                </div>
+              </div>
+              <div class="priceWrapper">
+                <span class="newPrice">$10.00 USD</span>
+                <span class="discountPrice">$24.00 USD </span>
+              </div>
+            </div>
+            <div class="hiddenContent">
+              <table>
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Size</th>
+                    <th>Colour</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>#1</td>
+                    <td>
+                      <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                      </select>
+                    </td>
+                    <td>
+                      <select>
+                        <option>Black</option>
+                        <option>White</option>
+                        <option>Blue</option>
+                      </select>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>#2</td>
+                    <td>
+                      <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                      </select>
+                    </td>
+                    <td>
+                      <select>
+                        <option>Black</option>
+                        <option>White</option>
+                        <option>Blue</option>
+                      </select>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="bottomWrapper">
+          <div class="totalWrapper">
+            <span class="freeDelivery">Free Delivery</span>
+            <span class="total">Total : $18.00 USD</span>
+          </div>
+          <div class="btnWrapper">
+            <button class="btn"><span>+</span>Add to Cart</button>
+            <span class="powered">@ Powered by Pumper</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
